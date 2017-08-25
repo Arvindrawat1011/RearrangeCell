@@ -73,7 +73,7 @@ extension FirstPage : UITableViewDataSource, UITableViewDelegate{
             self.Image.remove(at: indexPath.row )
             self.labelOne.remove(at: indexPath.row )
             self.labelTwo.remove(at: indexPath.row )
-            tableView.deleteRows(at: [indexPath], with: .fade)
+            tableView.deleteRows(at: [indexPath], with: .right)
             tableView.reloadData()
         })
         
@@ -99,7 +99,7 @@ extension FirstPage : UITableViewDataSource, UITableViewDelegate{
         
     }
     
-    
+    // Return String Named
     func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
         return "Erase"
     }
