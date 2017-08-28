@@ -99,6 +99,38 @@ extension FirstPage : UITableViewDataSource, UITableViewDelegate{
         
     }
     
+    
+    func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+     
+        return true
+    }
+    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        
+        //  For Image Calibration
+        var itemToMove = Image[sourceIndexPath.row]
+        Image.remove(at: sourceIndexPath.row)
+        Image.insert(itemToMove, at: destinationIndexPath.row)
+        
+         //  For labelOne Calibration
+         itemToMove = labelOne[sourceIndexPath.row]
+       labelOne.remove(at: sourceIndexPath.row)
+       labelOne.insert(itemToMove, at: destinationIndexPath.row)
+         //  For labelTwo Calibration
+        itemToMove = labelTwo[sourceIndexPath.row]
+        labelTwo.remove(at: sourceIndexPath.row)
+        labelTwo.insert(itemToMove, at: destinationIndexPath.row)
+         //  For counter Calibration
+       
+        firstPageTableView.reloadData()
+    }
+    func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
+        return false
+    }
+    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+        return UITableViewCellEditingStyle.none
+        
+    }
     // Return String Named
     func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
         return "Erase"

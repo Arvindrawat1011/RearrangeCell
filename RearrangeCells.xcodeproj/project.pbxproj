@@ -17,11 +17,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C7A9B871F5004FF0038C6DA /* CustomButtonOnSliding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomButtonOnSliding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7A9B871F5004FF0038C6DA /* RearrangeCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RearrangeCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7A9B8A1F5004FF0038C6DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C7A9B941F5004FF0038C6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C7A9B961F5004FF0038C6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C7A9B9C1F5005420038C6DA /* FirstPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstPage.swift; path = ../../Delegate/Delegate/TableViewTesting/TableViewTesting/TableViewTesting/FirstPage.swift; sourceTree = "<group>"; };
+		0C7A9B9C1F5005420038C6DA /* FirstPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstPage.swift; path = ../../Delegate/Delegate/TableViewTesting/TableViewTesting/TableViewTesting/FirstPage.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		0C7A9B9E1F5005470038C6DA /* SecondPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondPage.swift; path = ../../Delegate/Delegate/TableViewTesting/TableViewApp/TableViewApp/SecondPage.swift; sourceTree = "<group>"; };
 		0C7A9BA31F50055F0038C6DA /* ExtensionFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionFile.swift; sourceTree = "<group>"; };
 		0C7A9BA51F5005670038C6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Delegate/Delegate/TableViewTesting/TableViewApp/TableViewApp/Assets.xcassets; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		0C7A9B7E1F5004FF0038C6DA = {
 			isa = PBXGroup;
 			children = (
-				0C7A9B891F5004FF0038C6DA /* CustomButtonOnSliding */,
+				0C7A9B891F5004FF0038C6DA /* RearrangeCells */,
 				0C7A9B881F5004FF0038C6DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		0C7A9B881F5004FF0038C6DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C7A9B871F5004FF0038C6DA /* CustomButtonOnSliding.app */,
+				0C7A9B871F5004FF0038C6DA /* RearrangeCells.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C7A9B891F5004FF0038C6DA /* CustomButtonOnSliding */ = {
+		0C7A9B891F5004FF0038C6DA /* RearrangeCells */ = {
 			isa = PBXGroup;
 			children = (
 				0C7A9B8A1F5004FF0038C6DA /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				0C7A9B931F5004FF0038C6DA /* LaunchScreen.storyboard */,
 				0C7A9B961F5004FF0038C6DA /* Info.plist */,
 			);
-			path = CustomButtonOnSliding;
+			path = RearrangeCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C7A9B861F5004FF0038C6DA /* CustomButtonOnSliding */ = {
+		0C7A9B861F5004FF0038C6DA /* RearrangeCells */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C7A9B991F5004FF0038C6DA /* Build configuration list for PBXNativeTarget "CustomButtonOnSliding" */;
+			buildConfigurationList = 0C7A9B991F5004FF0038C6DA /* Build configuration list for PBXNativeTarget "RearrangeCells" */;
 			buildPhases = (
 				0C7A9B831F5004FF0038C6DA /* Sources */,
 				0C7A9B841F5004FF0038C6DA /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomButtonOnSliding;
+			name = RearrangeCells;
 			productName = CustomButtonOnSliding;
-			productReference = 0C7A9B871F5004FF0038C6DA /* CustomButtonOnSliding.app */;
+			productReference = 0C7A9B871F5004FF0038C6DA /* RearrangeCells.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C7A9B821F5004FF0038C6DA /* Build configuration list for PBXProject "CustomButtonOnSliding" */;
+			buildConfigurationList = 0C7A9B821F5004FF0038C6DA /* Build configuration list for PBXProject "RearrangeCells" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C7A9B861F5004FF0038C6DA /* CustomButtonOnSliding */,
+				0C7A9B861F5004FF0038C6DA /* RearrangeCells */,
 			);
 		};
 /* End PBXProject section */
@@ -277,9 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CustomButtonOnSliding/Info.plist;
+				INFOPLIST_FILE = RearrangeCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = app.CustomButtonOnSliding;
+				PRODUCT_BUNDLE_IDENTIFIER = app.RearrangeCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,9 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CustomButtonOnSliding/Info.plist;
+				INFOPLIST_FILE = RearrangeCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = app.CustomButtonOnSliding;
+				PRODUCT_BUNDLE_IDENTIFIER = app.RearrangeCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,7 +302,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C7A9B821F5004FF0038C6DA /* Build configuration list for PBXProject "CustomButtonOnSliding" */ = {
+		0C7A9B821F5004FF0038C6DA /* Build configuration list for PBXProject "RearrangeCells" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C7A9B971F5004FF0038C6DA /* Debug */,
@@ -311,13 +311,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C7A9B991F5004FF0038C6DA /* Build configuration list for PBXNativeTarget "CustomButtonOnSliding" */ = {
+		0C7A9B991F5004FF0038C6DA /* Build configuration list for PBXNativeTarget "RearrangeCells" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C7A9B9A1F5004FF0038C6DA /* Debug */,
 				0C7A9B9B1F5004FF0038C6DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
